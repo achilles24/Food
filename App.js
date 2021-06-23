@@ -8,6 +8,7 @@ import HraScreen from "./src/screens/HraScreen";
 import GratuityScreen from "./src/screens/GratuityScreen";
 import SalaryScreen from "./src/screens/SalaryScreen";
 import DeductionScreen from "./src/screens/DeductionScreen";
+import ResultScreen from "./src/screens/ResultScreen";
   
 function HomeStack() {
   const Stack = createStackNavigator();
@@ -16,6 +17,7 @@ function HomeStack() {
       <Stack.Screen name="Home" component={HomeScreen}/>
       <Stack.Screen name="Salary" component={SalaryScreen}/>
       <Stack.Screen name="Deduction" component={DeductionScreen}/>
+      <Stack.Screen name="Result" component={ResultScreen}/>
     </Stack.Navigator>
   )
 }
